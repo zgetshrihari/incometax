@@ -1,11 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Home extends CI_Controller { 
 
 
 	public function index()
 	{
+		// this is the coomit
 		$this->load->view('submit_income_vw',array('tax_vw' => '', 'income' => ''));
 	}
 
