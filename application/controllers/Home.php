@@ -7,6 +7,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		// this is the coomit
+		// this from laptop
 		$this->load->view('submit_income_vw',array('tax_vw' => '', 'income' => ''));
 	}
 
